@@ -1,0 +1,23 @@
+{
+  "name": "uniswap-v2-core-extended",
+  "version": "1.0.0",
+  "description": "Extending Uniswap V2 core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsanwtc/uniswap-v2-core-extended.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsanwtc/uniswap-v2-core-extended/issues"
+  },
+  "homepage": "https://github.com/ahsanwtc/uniswap-v2-core-extended#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1"
+  }
+}
