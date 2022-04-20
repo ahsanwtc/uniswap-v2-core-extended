@@ -1,7 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+pragma solidity 0.5.16;
 
-contract Token2 {
-  constructor() public {
+import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol';
+
+contract Token2 is ERC20, ERC20Detailed {
+  constructor() ERC20Detailed('Token2', 'TK2', 18) public {
   }
 }
